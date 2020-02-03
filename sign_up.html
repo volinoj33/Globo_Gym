@@ -1,0 +1,82 @@
+<!------------------------------------------------------------------------------------
+	James, Andrew, Noelle
+		Globo-Gym Webiste Project
+			Sign-Up Page 
+-------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sign-Up</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+		<!-- Local stylesheet link -->
+		<link rel="stylesheet" href="sign_up.css" />
+		<!--Local Javascript link-->
+		<script src="sign_up.js" async></script>
+		<!--Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Lato&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<!----Nav Bar Start-------->
+		<div class="nav">
+			<div class="container">
+				<ul class="float-left">
+					<li><a href="gym_home.html">Home</a></li>	
+				</ul>
+			
+				<ul class="float-right">
+					<li><a href="classes.html">Classes</a></li>
+					<li><a href="inside_look.html">Inside Look</a></li>
+					<li><a href="sign_up.html">Sign Up</a></li>
+				</ul>
+			</div>
+		</div>
+<!-----Nav Bar END----------->
+<!---- JUMBOTRON-------------->
+		<div class="jumbotron">
+			<div class="container">
+				<img src="images/logo_globo.png"/> 
+				<p>“We're better than you! And we know it!”</p>
+			</div>
+		</div>
+	<!------JUMBOTRON END---------->
+		<div class="moreInfo">
+			<h1>Questions about Membership<h2>
+				<p>Here at Globo-Gym we have a strict "NO QUITTERS" policy. This means that once you sign up with us, you become part of our family for a small price of $199.99/month. We have a certified staff to help take care of that for you. However, sign up here for a free complimentary 7-Day pass to Globo-Gym. So come try it out so you can turn that "Frankenstein you see in the mirror every morning into a "Franken-Fine"!!</p>
+			</div>
+	<form action="thank_you.html" style="border:1px solid #ccc">
+		<div class="container">
+			<h1>More Info</h1>
+			<p>Please Enter your E-Mail for more info and your Complimentary 7-Day Pass.</p>
+		<hr>
+		<!-- Tag Name for Email input field ------->
+		<label for="email"><b>Email</b></label>
+			<input type="email" placeholder="Enter Email" name="email" id="email"required>
+		<!--Tag Name for Password input field--->
+		<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+		<!--- Tag Name for Re-Enter Password Field--->
+		<label for="psw-repeat"><b>Repeat Password</b></label>
+			<input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat"	required>
+		<label>
+			<h2 id="verify"></h2>
+				<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+			</label>
+
+			<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+			<div class="clearfix">
+				<button type="button" class="cancelbtn" id="cancelButton">Cancel</button>
+				<button type="submit" class="signupbtn" id="signupButton">Sign Up</button>
+			</div>
+		</div>
+	</form>
+	</body>
+	<footer>
+		Globo-Gym International ֎ 1234 Globo-Gym Turnpike Gainsville, FL 11234 ֎ (474) 678-8565 ext.1245
+	</footer>
+</html>

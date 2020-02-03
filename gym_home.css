@@ -1,0 +1,99 @@
+/* Globo-Gym James,Andrew,Noelle */
+
+body {
+	background-color: Silver;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	font-size: 20px;
+	padding-right: 25px;
+	font-weight: bold;
+	transition: font 1s;
+	color: Black;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.nav {
+	background-color: rgb(148, 63, 192);
+}
+
+ul.float-left, ul.float-right {
+	margin-bottom: 8px;
+	margin-top: 7px;
+}
+
+.jumbotron {
+	height: 558px;
+	background-image: url("images/gym_inside.png");
+	background-size: cover;
+	background-repeat: round;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.jumbotron p {
+	color: white;
+	font-size: 30px;
+	font-family: 'Francois One', sans-serif;
+}
+
+div.jumbotron img {
+	max-width: 35%;
+}
+
+.jumbotron a {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.jumbotrom a:hover {
+	background-color: blue;
+}
+
+div.learn-more {
+	background-color: rgb(14, 14, 63);
+	height: 270px;
+	padding-top: 20px;
+}
+
+div.col-md-4 p {
+	color:rgb(212, 212, 247);
+	font-size: 15px;
+}
+
+div.col-md-4 a {
+	text-decoration: none;
+	color: rgb(150, 150, 233);
+	background-color: rgb(234, 234, 250);
+	padding: 7px;
+	border-radius: 10px;
+}
+
+div.col-md-4 a:hover:before {
+	color: black;
+}
+
+div.col-md-4 h3 {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Alfa Slab One', cursive;
+	color: rgb(212, 212, 247);
+	font-size: 40px;
+}
+
+footer {
+	text-align: center;
+	padding: 25px;
+	background-image: linear-gradient(white,Silver);
+	color: NavyBlue;
+}
